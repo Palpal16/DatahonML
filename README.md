@@ -5,8 +5,6 @@ This project was developed during a 24-hour datathon organized by **UPC**, where
 
 The complete project was coded collaboratively on **Google Colab**, while this repository on **GitHub** presents the final code. Since the dataset is private, only the methodology and code are shared. However, the approaches can be applied to other datasets with similar characteristics.
 
----
-
 ## Dataset Summary
 - **Source**: Real estate transactions in Illinois (Sept 2023 – Sept 2024)
 - **Dimensions**:
@@ -19,8 +17,6 @@ The complete project was coded collaboratively on **Google Colab**, while this r
 - **Key Challenges**:
   - High dimensionality and missing values
   - Outliers (e.g., properties with extreme prices, unusual features)
-
----
 
 ## Methodology
 
@@ -42,8 +38,6 @@ The complete project was coded collaboratively on **Google Colab**, while this r
   - Correlated features (correlation > 0.8) dropped
   - Final selection: 24 key features (e.g., living area, kitchen quality, interiors)
 
----
-
 ### 2. **Model Development**
 - **Approach**:
   - Explored various algorithms: 
@@ -59,12 +53,8 @@ The complete project was coded collaboratively on **Google Colab**, while this r
   - Used MSE and MAE as primary metrics
   - Focused on model interpretability and robustness over metric optimization
 
----
-
 ## Results and Reflections
 Our AVM achieved competitive accuracy while maintaining interpretability. The methodology emphasized data cleaning, feature engineering, and justification of all preprocessing steps. Although the dataset is not public, the workflow can inspire similar projects in real estate or other domains.
-
----
 
 ## Team
 - **Andreja Andrejic**
